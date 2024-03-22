@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Авторизация ВКонтакте" xmlns:vm="clr-namespace:AllTPlayer_App.ViewModels" 
+             x:Class="AllTPlayer_App.VkLoginPage">
+
+    <StackLayout VerticalOptions="Center" Padding="15">
+        <Image Source="vkLogo.png" WidthRequest="100" HeightRequest="100" Margin="15"/>
+        <Entry x:Name="login" Placeholder="Email" TextColor="Black" PlaceholderColor="Gray"></Entry>
+        <Entry x:Name="password" Placeholder="Пароль" IsPassword="True" TextColor="Black" PlaceholderColor="Gray"></Entry>
+        <Label x:Name="errorText" Text="Неправильный логин или пароль" TextColor="Red" FontSize="14" HorizontalTextAlignment="Center" IsVisible="false"></Label>
+        <Button Text="Войти" TextColor="White" BackgroundColor="#0078ff" BorderWidth="1.5" CornerRadius="50" Margin="15" Clicked="LoginSubmitButton_Clicked"/>
+    </StackLayout>
+</ContentPage>
