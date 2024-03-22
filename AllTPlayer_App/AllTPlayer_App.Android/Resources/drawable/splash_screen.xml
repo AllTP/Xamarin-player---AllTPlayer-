@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layer-list xmlns:android="http://schemas.android.col/apk/res/android">
+
+	<item>
+		<color android:color="@android:color/background_light"/>
+	</item>
+
+	<item>
+		<bitmap android:src="@drawable/splash_icon" 
+android:tileMode="disabled"
+android:gravity="center"/>
+	</item>
+
+</layer-list>
