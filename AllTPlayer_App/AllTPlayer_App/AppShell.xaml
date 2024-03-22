@@ -21,9 +21,6 @@
     <FlyoutItem Title="VK музыка" Icon="vkMusic.png" >
         <ShellContent ContentTemplate="{DataTemplate view:VkMusicPage}"/>
     </FlyoutItem>
-    <FlyoutItem Title="Yandex музыка" Icon="yandexMusic.png" >
-        <ShellContent ContentTemplate="{DataTemplate view:YandexMusicPage}"/>
-    </FlyoutItem>
 
     <Shell.ItemTemplate>
         <DataTemplate>
